@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_gradient"
+    tools:context=".InfoBlankFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/enterDetailCard"
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:background="#702CEE00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/BeginButton"
+            android:layout_width="146dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="536dp"
+            android:layout_marginBottom="16dp"
+            android:text="Play!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/infoLabel"
+            android:layout_width="286dp"
+            android:layout_height="386dp"
+            android:text="Guide the rocket from Mercury to the edge of the universe. Shoot asteroids by tapping the screen and avoid satalites by moving the phone from side to side. Watch out for planets that are present at the same distances as real life. Have fun!"
+            android:textAlignment="center"
+            android:textColor="#EBB90CBF"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="75dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

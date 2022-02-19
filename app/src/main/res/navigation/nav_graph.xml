@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstBlankFragment">
+
+    <fragment
+        android:id="@+id/firstBlankFragment"
+        android:name="com.example.rocketspacegame.FirstBlankFragment"
+        android:label="fragment_first_blank"
+        tools:layout="@layout/fragment_first_blank" >
+        <action
+            android:id="@+id/action_firstBlankFragment_to_infoBlankFragment"
+            app:destination="@id/infoBlankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondBlankFragment"
+        android:name="com.example.rocketspacegame.SecondBlankFragment"
+        android:label="fragment_second_blank"
+        tools:layout="@layout/fragment_second_blank" />
+    <fragment
+        android:id="@+id/infoBlankFragment"
+        android:name="com.example.rocketspacegame.InfoBlankFragment"
+        android:label="fragment_info_blank"
+        tools:layout="@layout/fragment_info_blank" >
+        <action
+            android:id="@+id/action_infoBlankFragment_to_secondBlankFragment"
+            app:destination="@id/secondBlankFragment" />
+    </fragment>
+</navigation>
