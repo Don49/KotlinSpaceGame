@@ -1,0 +1,10 @@
+com/example/rocketspacegame/BuildConfig.java
+ com.example.rocketspacegame.BuildConfig
+com/example/rocketspacegame/databinding/ActivityMainBinding.java
+ com.example.rocketspacegame.databinding.ActivityMainBinding
+com/example/rocketspacegame/databinding/FragmentInfoBlankBinding.java
+ com.example.rocketspacegame.databinding.FragmentInfoBlankBinding
+com/example/rocketspacegame/databinding/FragmentSecondBlankBinding.java
+ com.example.rocketspacegame.databinding.FragmentSecondBlankBinding
+com/example/rocketspacegame/databinding/FragmentFirstBlankBinding.java
+ com.example.rocketspacegame.databinding.FragmentFirstBlankBinding
